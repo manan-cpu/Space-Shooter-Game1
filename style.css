@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#intro-screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #f39c12;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+#start-button {
+    padding: 15px 30px;
+    background-color: #27ae60;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#ship-selection {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+#ship-selection img {
+    margin: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+
+#gameCanvas {
+    display: block;
+    margin: 0 auto;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+}
